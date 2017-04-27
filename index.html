@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lista de Tareas</title>
+
+	<style>
+	form   {width:500px;height:600px;border:1px solid #ccc;padding:10px;}
+	</style>
+
+</head>
+<body>
+	
+	<!-- QUE TENGO QUE TENER:
+	-Crear una lista <li> con checklist al lado
+	-Boton que agregue tareas nuevas que diga "Añadir tarea"
+	-La tarea nueva debe sumarse a la lista de tareas que ya tengo
+-->
+<div align="center">
+<form id="todoForm">
+  <h1>Mi Lista de Tareas:<h1>
+    <input id="todoInput">
+    <button type="button" onclick="todoList()">+ Agregar tarea</button>
+</form>
+<div id="todoList">
+</div>
+
+	</body>
+	</html>
